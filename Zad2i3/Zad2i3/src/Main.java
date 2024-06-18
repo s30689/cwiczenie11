@@ -19,6 +19,7 @@ public class Main {
         items.add(new Item("Biurko3"));
         items.add(new Item("Biurko4"));
         items.add(new Item("Biurko5"));
+        items.add(new Item("Biurko6"));
 
 
 
@@ -33,19 +34,6 @@ public class Main {
             System.out.println("ID: " + entry.getKey() + ", Name: " + entry.getValue());
 
         }
-
-
-
-        items.add(new Item("Gruszka"));
-        items.add(new Item("Sprite"));
-        items.add(new Item("Kawa"));
-        items.add(new Item("Oranzada"));
-        items.add(new Item("Biurko"));
-        items.add(new Item("Lampa"));
-        items.add(new Item("Komputer"));
-        items.add(new Item("Ksiazka"));
-        items.add(new Item("Herbata"));
-        items.add(new Item("Telefon"));
 
 
         List<Item> firstFiveItems = items.subList(0, 5);
